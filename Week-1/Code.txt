@@ -1,0 +1,8 @@
+program god (input, output);
+var i, j : integer;
+begin
+    read (i, j);
+    while i <> j do
+        if i > j then i := i - j else j := j - i;
+    writeln (i)
+end
