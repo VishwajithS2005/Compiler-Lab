@@ -1,0 +1,15 @@
+{
+"version": "2.0.0",
+"tasks": [
+	{
+		"label": "Build and Run Lex",
+		"type": "shell",
+		"command": "cd \"${fileDirname}\"; flex ${fileBasename}; gcc lex.yy.c; ./a.exe",
+		"group": {
+			"kind": "build",
+			"isDefault": true
+		},
+		"problemMatcher": []
+	}
+]
+}
