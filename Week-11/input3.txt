@@ -1,0 +1,11 @@
+i = 0
+found = 0
+while (i < n)
+{
+    if (A[i] == key)
+    {
+        found = 1
+        break
+    }
+    i = i + 1
+}

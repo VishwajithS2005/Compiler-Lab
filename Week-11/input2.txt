@@ -1,0 +1,6 @@
+if (marks > 80 && attendance > 90)
+    scholarship = 2
+else if (marks > 70 || sports == 1)
+    scholarship = 1
+else
+    scholarship = 0
